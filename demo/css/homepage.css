@@ -1,0 +1,65 @@
+body {
+    background-color: grey;
+    margin:0;
+    padding:0;
+}
+
+#mask {
+    background-color: black;
+}
+
+#tietie {
+    opacity: 0.3;
+    filter: alpha(opacity=60);
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    overflow:hidden;
+    background-color: dimgrey;
+    position: fixed;
+    right: 10px;
+    top: 5px;
+}
+
+li {
+    display: inline;
+    flex: 1;
+    width: 160px;
+    height: 30px;
+    border: 1px solid black;
+}
+
+li a{
+    display: block;
+    text-align: center;
+    padding: 5px;
+    background-color: beige;
+}
+
+main {
+    /* max-width: 960px; */
+}
+
+img {
+    width: 100%;
+}
+
+h1 {
+    color:aliceblue;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.websign {
+    display: inline;
+    position:fixed;
+    top: 10px;
+    left: 5px;
+}
